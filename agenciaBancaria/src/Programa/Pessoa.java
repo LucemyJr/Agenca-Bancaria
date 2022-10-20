@@ -1,4 +1,5 @@
-public class pessoa{
+package Programa;
+public class Pessoa{
 
     private static int counter = 1;
 
@@ -8,7 +9,7 @@ public class pessoa{
 
     // Metodos
 
-    public pessoa(String nome, String cpf, String email){
+    public Pessoa(String nome, String cpf, String email){
         this.nome = nome;
         this.cpf = cpf;
         this.email = email;
